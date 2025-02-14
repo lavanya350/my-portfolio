@@ -87,6 +87,7 @@ nav ul li a:hover {
 h1 {
     font-size: 2rem;
     font-weight: bold;
+    transform:rotateZ('angle');
 }
 
 p {
@@ -113,6 +114,8 @@ p {
 /* About & Skills Section */
 #about, #skills, #projects, #contact {
     padding: 50px 20px;
+    color:black;
+    background-color: aqua;
 }
 
 h2 {
@@ -142,7 +145,9 @@ h2 {
 }
 .projects-container{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
     gap: 15px;
     flex-wrap: wrap;
     margin-top: 80px;
@@ -201,6 +206,7 @@ h2 {
     }
     /* footer styles*/
     .footer{
-        background-color:#333;
+        background-color:aqua;
+        color: #222;
 
     }
